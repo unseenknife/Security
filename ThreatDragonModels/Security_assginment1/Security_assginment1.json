@@ -3,7 +3,11 @@
     "title": "Security_assginment1"
   },
   "detail": {
-    "contributors": [],
+    "contributors": [
+      {
+        "name": "racheldijkstra2001@gmail.com"
+      }
+    ],
     "diagrams": [
       {
         "title": "Brightspace server",
