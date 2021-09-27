@@ -48,8 +48,8 @@
                 "height": 80
               },
               "position": {
-                "x": 604,
-                "y": 29
+                "x": 655,
+                "y": 28
               },
               "angle": 0,
               "id": "2af2dd5a-f829-412a-8922-96e7d569256a",
@@ -74,8 +74,8 @@
                 "height": 80
               },
               "position": {
-                "x": 608,
-                "y": 244
+                "x": 659,
+                "y": 246
               },
               "angle": 0,
               "id": "fa40fbb5-b565-4d64-b28b-6cfd5bac209b",
@@ -127,7 +127,7 @@
               },
               "position": {
                 "x": 318,
-                "y": 256
+                "y": 257
               },
               "angle": 0,
               "id": "1b03df72-2318-4f06-987e-d5d4d121cc87",
@@ -319,8 +319,8 @@
               "labels": [
                 {
                   "position": {
-                    "distance": 0.5803910869322298,
-                    "offset": -6.951855991990324
+                    "distance": 0.5023860518197635,
+                    "offset": -2.6860507272872094
                   },
                   "attrs": {
                     "text": {
@@ -458,12 +458,178 @@
                   "class": "connection hasNoOpenThreats isInScope"
                 }
               }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "1b03df72-2318-4f06-987e-d5d4d121cc87"
+              },
+              "target": {
+                "id": "7fc82509-fa09-4526-a74b-ba569dc7078c"
+              },
+              "vertices": [
+                {
+                  "x": 333,
+                  "y": 150
+                }
+              ],
+              "id": "7db3e087-1f64-41bb-8205-26b2d5eb2cd0",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Token",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 14,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "7fc82509-fa09-4526-a74b-ba569dc7078c"
+              },
+              "target": {
+                "id": "1b03df72-2318-4f06-987e-d5d4d121cc87"
+              },
+              "vertices": [
+                {
+                  "x": 398,
+                  "y": 137
+                },
+                {
+                  "x": 401,
+                  "y": 189
+                }
+              ],
+              "id": "24a0a0ba-3f80-4c92-9626-f4c1bfcf1e69",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Validate",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 15,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 174,
+                "y": 33
+              },
+              "target": {
+                "x": 142,
+                "y": 355
+              },
+              "vertices": [
+                {
+                  "x": 217,
+                  "y": 192
+                }
+              ],
+              "id": "94fcc334-b91d-441e-810f-80f8a38ef454",
+              "z": 16,
+              "attrs": {}
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 614,
+                "y": 5
+              },
+              "target": {
+                "x": 605,
+                "y": 381
+              },
+              "vertices": [
+                {
+                  "x": 636,
+                  "y": 189
+                }
+              ],
+              "id": "421ff665-5ae0-401a-b038-b827073d79e3",
+              "z": 17,
+              "attrs": {}
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 469,
+                "y": 7
+              },
+              "target": {
+                "x": 229,
+                "y": 11
+              },
+              "vertices": [
+                {
+                  "x": 366,
+                  "y": 129
+                }
+              ],
+              "id": "76589a30-eb5f-4feb-bf43-1bf4a0ff86c2",
+              "z": 18,
+              "attrs": {}
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 247,
+                "y": 341
+              },
+              "target": {
+                "x": 466,
+                "y": 354
+              },
+              "vertices": [
+                {
+                  "x": 375,
+                  "y": 225
+                }
+              ],
+              "id": "c6d7f075-422e-425f-b7ca-2dd2e3eadaf6",
+              "z": 19,
+              "attrs": {}
             }
           ]
         },
         "size": {
-          "height": 590,
-          "width": 790
+          "height": 593.9993286132812,
+          "width": 868
         }
       }
     ]
