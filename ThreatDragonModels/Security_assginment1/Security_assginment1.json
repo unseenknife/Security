@@ -193,14 +193,19 @@
               "target": {
                 "id": "1b03df72-2318-4f06-987e-d5d4d121cc87"
               },
-              "vertices": [],
+              "vertices": [
+                {
+                  "x": 211,
+                  "y": 275
+                }
+              ],
               "id": "079c1a2a-20c7-4679-9def-ae1146a61603",
               "labels": [
                 {
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "Token",
+                      "text": "Request",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -272,8 +277,8 @@
               },
               "vertices": [
                 {
-                  "x": 200,
-                  "y": 276
+                  "x": 256,
+                  "y": 212
                 }
               ],
               "id": "ab5e29ed-24b0-411e-9c6b-93cdfc739a60",
@@ -282,7 +287,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "Request",
+                      "text": "Token",
                       "font-weight": "400",
                       "font-size": "small"
                     }
